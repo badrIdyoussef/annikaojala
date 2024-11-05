@@ -483,6 +483,8 @@
 	left: 0;
 	width: 45%;
 	height: 100%;
+	overflow: hidden;
+
 }
 
 
@@ -543,6 +545,8 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
+	opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease-in; /* Fade-in transition */
 }
 
 
