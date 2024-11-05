@@ -35,6 +35,8 @@
 	filter: blue(10px);
     border-radius: 80px;
     transition: all 0.7s cubic-bezier(0.165, 0.85, 0.45, 1);
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .header .logo {
@@ -342,7 +344,10 @@
 		-moz-border-radius: 0;
 		-webkit-border-radius: 0;
 		-khtml-border-radius: 0;
+		box-shadow: none;
 	}
+	
+
 
 
 	.header.fixed {
